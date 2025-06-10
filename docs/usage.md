@@ -1,3 +1,4 @@
+
 (usage)=
 # Usage
 
@@ -107,7 +108,7 @@ Different models support system prompts in different ways.
 
 The OpenAI models are particularly good at using system prompts as instructions for how they should process additional input sent as part of the regular prompt.
 
-Other models might use system prompts change the default voice and attitude of the model.
+Other models might use system prompts to change the default voice and attitude of the model.
 
 System prompts can be saved as {ref}`templates <prompt-templates>` to create reusable tools. For example, you can create a template called `pytest` like this:
 
@@ -274,7 +275,7 @@ Or use LLM's custom {ref}`concise schema syntax <schemas-dsl>` like this:
 ```bash
 llm --schema 'name,bio' 'invent a dog'
 ```
-Two use the same concise schema for multiple items use `--schema-multi`:
+To use the same concise schema for multiple items use `--schema-multi`:
 ```bash
 llm --schema-multi 'name,bio' 'invent two dogs'
 ```
